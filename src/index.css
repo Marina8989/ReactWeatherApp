@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 600px;
+    text-align: center;
+    margin: 2rem auto;
+    height: 100vh;
+    border-radius: 10px;
+    
+    background-image: url('./assets/cold-bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.warm{
+    background-image: url('./assets/warm-bg.jpeg');
+}
+.container .cont-weather {
+    padding-top: 3.2rem;
+    color: rgb(109, 109, 109);
+    font-size: 40px;
+}
+input {
+   width: 70%;
+   padding: 8px 35px;
+   border-radius: 10px;
+   border: none;
+   box-shadow: 2px 2px rgb(99, 130, 148);
+   font-size: 22px;
+   outline: none;
+   margin-top: 2rem;
+}
+.weather h2{
+    color: rgb(150, 148, 148);
+    margin: 2rem 0 1rem 0;
+    font-weight: 500;
+    font-size: 40px;
+}
+.weather .weather-date{
+    color: rgb(65, 64, 64);
+    margin: .7rem 0;
+    font-size: 25px;
+    text-shadow: 0 2px 2px rgb(143, 143, 143);
+}
+ .weather .weather-temp {
+    color: white;
+    text-shadow: 2px 2px rgb(143, 143, 143);
+    font-size: 75px;
+    margin: 2rem 9rem;
+    padding: 25px 0;
+    background:rgba(150, 148, 148, 0.3);
+    border-radius: 15px;
+}
+.weather-condition{
+   color: rgb(88, 88, 88);
+    margin: .7rem 0;
+    font-size: 25px;
+    text-shadow: 0 2px 2px rgb(143, 143, 143);
+}
